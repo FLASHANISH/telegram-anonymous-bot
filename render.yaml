@@ -2,7 +2,7 @@ services:
   - type: worker
     name: telegram-anonymous-bot
     env: python
-    buildCommand: "./build.sh"
+    buildCommand: "pip install -r requirements.txt"
     startCommand: "python python.py"
     envVars:
       - key: TELEGRAM_BOT_TOKEN
