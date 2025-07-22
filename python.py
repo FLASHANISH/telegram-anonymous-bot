@@ -14,7 +14,7 @@ logger = logging.getLogger(__name__)
 
 # Bot Token (Provided by the user)
 import os
-TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', "7358611319:AAHRzZGsah2Su6Wa6bNhdc8IAUihMTTKnDc")
+TOKEN = os.getenv('TELEGRAM_BOT_TOKEN', "7547606534:AAHuZOUjwiDAuN5fqKSEZ2_yxmHNEmiugoQ")
 
 # Global data structures
 user_queue = deque()
