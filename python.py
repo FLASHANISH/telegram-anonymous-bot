@@ -476,6 +476,14 @@ async def post_init(application: Application) -> None:
 
 def main() -> None:
     """Starts the bot."""
+    # Start keep-alive server for Replit
+    try:
+        from keep_alive import keep_alive
+        keep_alive()
+        print("✅ Keep-alive server started for 24/7 operation")
+    except ImportError:
+        print("ℹ️ Running without keep-alive (not on Replit)")
+    
     application = Application.builder().token(TOKEN).post_init(post_init).build()
 
     # Add command handlers
