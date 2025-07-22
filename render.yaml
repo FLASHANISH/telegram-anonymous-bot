@@ -1,0 +1,9 @@
+services:
+  - type: worker
+    name: telegram-anonymous-bot
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "python python.py"
+    envVars:
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
