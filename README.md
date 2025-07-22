@@ -20,7 +20,13 @@ A Telegram bot that enables anonymous chatting between users with multi-language
 
 ## 📦 Deployment
 
-### Deploy on Render.com
+### One-Click Deploy
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/FLASHANISH/telegram-anonymous-bot)
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/DLlHxL?referralCode=alphasec)
+
+### Manual Deploy on Render.com
 
 1. **Service Type**: Background Worker (NOT Web Service)
 2. **Build Command**: `pip install -r requirements.txt`
